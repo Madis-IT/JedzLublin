@@ -43,7 +43,7 @@ Zgodnie z RODO masz prawo dostępu do danych, ich sprostowania, usunięcia, ogra
 Aplikacja nie jest skierowana do dzieci poniżej 13 lat i nie zbiera świadomie ich danych.
 
 ## 10. Zmiany
-Możemy zmienić tę politykę, gdy zmieni się sposób działania aplikacji. Aktualna wersja jest zawsze dostępna w aplikacji i pod adresem https://github.com/Madis-IT/LublinBusWidget.
+Możemy zmienić tę politykę, gdy zmieni się sposób działania aplikacji. Aktualna wersja jest zawsze dostępna w aplikacji i pod adresem https://github.com/Madis-IT/JedzLublin.
 
 ## 11. Kontakt
 Madis sp. z o.o., ul. Sądowa 2 m. 11, 20-027 Lublin, info@madis.it.com.
