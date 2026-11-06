@@ -1,49 +1,118 @@
 # Polityka prywatności aplikacji „Jedź Lublin”
 
-Ostatnia aktualizacja: 3 listopada 2026
+Ostatnia aktualizacja: 6 listopada 2026
 
 ## 1. Kto jest administratorem
-Administratorem danych jest Madis sp. z o.o., ul. Sądowa 2 m. 11, 20-027 Lublin, NIP 9462762163. Kontakt w sprawach prywatności: info@madis.it.com.
+
+Administratorem danych jest Madis sp. z o.o., ul. Sądowa 2 m. 11, 20-027 Lublin, NIP 9462762163.
+
+Kontakt w sprawach prywatności: info@madis.it.com.
 
 ## 2. Jakich danych używamy
-Aplikacja nie wymaga konta ani logowania. Nie prosimy o imię, nazwisko, adres e-mail ani numer telefonu. Korzysta tylko z tych danych:
 
-- **Lokalizacja urządzenia.** Tylko po wyrażeniu zgody i tylko wtedy, gdy aplikacja jest otwarta. Pokazujemy dzięki niej najbliższe przystanki, Twoją pozycję na mapie i dojście do przystanku. Nie wysyłamy jej na nasze serwery. Aby wyznaczyć trasę pieszą, aplikacja przekazuje współrzędne do Mapbox, a aby nazwać Twoje położenie ulicą („Moja lokalizacja”), korzysta z usługi geokodowania systemu (Apple na iPhonie, Google na Androidzie).
-- **Wpisane adresy.** Tekst, który wpisujesz w polach „Skąd” i „Dokąd”, trafia do Mapbox, żeby znaleźć adres.
-- **Śledzenie na żywo.** Gdy włączysz „Śledź na żywo”, aplikacja wysyła na nasz serwer wybrany przejazd: przystanki, linie, ich rozkład, nazwy miejsca startu i celu (także wpisany adres) oraz identyfikator powiadomień urządzenia, potrzebny do odświeżania aktywności na żywo. Nie wysyła lokalizacji.
-- **Zapisane ustawienia** (ostatnie wyszukiwania, trasy, widżety). Są przechowywane tylko na Twoim urządzeniu.
-- **Dane techniczne.** Nie zbieramy statystyk użycia ani raportów o awariach. Sprawdzając aktualizacje, aplikacja łączy się z usługą Expo, która otrzymuje wersję aplikacji i systemu, adres IP oraz anonimowy identyfikator instalacji.
+Aplikacja nie wymaga konta ani logowania. Nie prosimy o imię, nazwisko, adres e-mail ani numer telefonu. Zakres przetwarzanych danych zależy od funkcji, z których korzystasz.
+
+- Lokalizacja urządzenia. Po udzieleniu dostępu do lokalizacji, gdy aplikacja jest otwarta, wykorzystujemy ją do pokazania najbliższych przystanków, Twojej pozycji na mapie i dojścia do przystanku. Wyznaczanie trasy pieszej wymaga przesłania współrzędnych przez nasz serwer do Mapricot. Obliczanie czasów dojścia do różnych przystanków odbywa się przez Mapbox Matrix, do którego aplikacja przesyła potrzebne współrzędne bezpośrednio. Aby nazwać Twoje położenie ulicą („Moja lokalizacja”), korzystamy z usługi geokodowania systemu: Apple na iPhonie i Google na Androidzie.
+- Wpisane adresy i nazwy miejsc. Tekst wpisany w polach „Skąd” i „Dokąd” może zostać przesłany przez nasz serwer do Mapricot w celu wyszukania adresu lub miejsca. Po wybraniu wyniku aplikacja wykorzystuje jego współrzędne do planowania podróży.
+- Wyświetlany obszar mapy. Podczas korzystania z map aplikacja pobiera dane z OpenFreeMap. Dostawca otrzymuje adres IP urządzenia i zapytania dotyczące wyświetlanego obszaru. Samo pobieranie mapy nie wymaga przesłania pozycji GPS, ale wyświetlany obszar może wskazywać Twoje przybliżone położenie.
+- Śledzenie na żywo. Gdy włączysz „Śledź na żywo”, aplikacja wysyła na nasz serwer dane wybranego przejazdu: przystanki, linie, rozkład, nazwy miejsca startu i celu, a w przypadku celu wskazanego adresem także jego współrzędne. Na iPhonie przesyła również identyfikator powiadomień potrzebny do aktualizowania aktywności na żywo. W ramach tego śledzenia nie przesyłamy na nasz serwer bieżącej pozycji GPS urządzenia.
+- Zapisane ustawienia. Ostatnie wyszukiwania, zapisane trasy i konfiguracja widżetów są przechowywane lokalnie przez aplikację. Wybrany przejazd jest przesyłany na serwer dopiero wtedy, gdy korzystasz z funkcji, która tego wymaga, np. śledzenia na żywo.
+- Dane techniczne. Nasz serwer otrzymuje adres IP podczas obsługi zapytań, m.in. wyszukiwania adresów, wyznaczania tras, pobierania rozkładu i sprawdzania wymaganej wersji aplikacji. Adres IP wykorzystujemy również do ograniczania nadmiernej liczby zapytań. Zapisujemy techniczne informacje o działaniu serwera i obsłudze aktywności na żywo, bez tokenów powiadomień w dzienniku diagnostycznym. Nie prowadzimy analityki zachowania użytkowników.
+- Aktualizacje aplikacji. Korzystając z Expo EAS Update, aplikacja przekazuje dane potrzebne do pobrania odpowiedniej aktualizacji, w tym informacje o wersji i środowisku aplikacji, systemie, adres IP oraz losowy identyfikator instalacji. Osobne zapytanie do naszego serwera służy do sprawdzania wymaganej wersji aplikacji dostępnej w sklepach.
+
+Wyszukiwania i trasy przekazujemy do Mapricot bez zapisywania ich treści przez nasz moduł pośredniczący. Nie oznacza to, że dostawca nie prowadzi własnych dzienników technicznych.
 
 ## 3. Cel i podstawa przetwarzania
-Dane wykorzystujemy wyłącznie po to, żeby aplikacja działała: pokazywała rozkłady jazdy, trasy i odjazdy na żywo. Lokalizację przetwarzamy na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO), dane do śledzenia na żywo, żeby wykonać usługę, o którą prosisz (art. 6 ust. 1 lit. b RODO), a dane techniczne na podstawie naszego uzasadnionego interesu (art. 6 ust. 1 lit. f RODO).
 
-## 4. Usługi zewnętrzne
-Aplikacja korzysta z:
+Dane wykorzystujemy do:
 
-- danych rozkładowych i danych o pojazdach na żywo udostępnianych przez ZDTM Lublin,
-- map, wyszukiwania adresów i tras pieszych Mapbox (© Mapbox, © OpenStreetMap). Mapbox może otrzymywać dane techniczne, np. adres IP i przybliżony obszar mapy. Zasady Mapbox: https://www.mapbox.com/legal/privacy,
-- Apple Push Notification Service, który dostarcza aktualizacje aktywności na żywo na iPhonie,
-- Expo (EAS Update), przez które dostarczamy aktualizacje aplikacji.
+- pokazywania rozkładów, przystanków, map i pozycji pojazdów;
+- wyszukiwania adresów i planowania podróży;
+- wyznaczania dojść pieszych i obliczania ich czasu;
+- obsługi widżetów i śledzenia na żywo;
+- dostarczania aktualizacji oraz zapewnienia bezpieczeństwa i poprawnego działania aplikacji.
 
-Aplikacja jest nieoficjalna i nie jest powiązana z ZDTM Lublin.
+Lokalizację urządzenia przetwarzamy na podstawie Twojej zgody — art. 6 ust. 1 lit. a RODO.
 
-## 5. Płatności
-Aplikacja nie sprzedaje biletów i nie przetwarza płatności. Tylko podpowiada, jak zapłacić zbliżeniowo w pojeździe.
+Dane potrzebne do wykonania wybranej przez Ciebie funkcji, takiej jak wyszukiwanie adresu, wyznaczanie trasy lub śledzenie na żywo, przetwarzamy w celu świadczenia tej usługi — art. 6 ust. 1 lit. b RODO.
 
-## 6. Udostępnianie i sprzedaż danych
-Nie sprzedajemy i nie udostępniamy Twoich danych w celach reklamowych. Aplikacja nie zawiera reklam.
+Niezbędne dane techniczne przetwarzamy na podstawie naszego uzasadnionego interesu, polegającego na utrzymaniu działania aplikacji, diagnozowaniu błędów i zapobieganiu nadużyciom — art. 6 ust. 1 lit. f RODO.
+
+Podanie danych jest dobrowolne. Bez dostępu do lokalizacji nadal możesz przeglądać rozkłady i wyszukiwać przystanki, ale funkcje korzystające z Twojej pozycji będą ograniczone.
+
+## 4. Dostawcy usług i odbiorcy danych
+
+Aplikacja korzysta z następujących usług:
+
+- ZDTM Lublin — dane rozkładowe i informacje o pojazdach na żywo. Aplikacja jest nieoficjalna i nie jest powiązana z ZDTM Lublin.
+- OpenFreeMap — dane map wyświetlanych przez bibliotekę MapLibre. OpenFreeMap otrzymuje zapytania o obszar mapy i adres IP urządzenia. Zasady prywatności: openfreemap.org/privacy (https://openfreemap.org/privacy/).
+- Mapricot — wyszukiwanie adresów i miejsc oraz wyznaczanie tras pieszych i drogowych. Zapytania przekazujemy przez nasz serwer. Mapricot otrzymuje tekst wyszukiwania, potrzebne współrzędne lub punkty trasy oraz adres IP naszego serwera. Dostawca informuje, że jego dzienniki diagnostyczne mogą zawierać tekst wyszukiwania i współrzędne. Zasady prywatności: mapricot.com/privacy (https://mapricot.com/privacy/).
+- Mapbox Matrix — obliczanie czasów dojścia do przystanków. Mapbox otrzymuje potrzebne współrzędne i adres IP urządzenia. Zasady prywatności: mapbox.com/legal/privacy (https://www.mapbox.com/legal/privacy).
+- Hetzner — infrastruktura, na której działa nasz serwer obsługujący rozkład, zapytania do Mapricot i śledzenie na żywo.
+- Apple — systemowe usługi lokalizacji i geokodowania na iPhonie oraz Apple Push Notification Service, który dostarcza aktualizacje aktywności na żywo. Zasady prywatności: apple.com/legal/privacy (https://www.apple.com/legal/privacy/).
+- Google — systemowe usługi lokalizacji i geokodowania na Androidzie. Zasady prywatności: policies.google.com/privacy (https://policies.google.com/privacy).
+- Expo — dostarczanie aktualizacji aplikacji przez EAS Update. Zasady prywatności: expo.dev/privacy (https://expo.dev/privacy).
+
+Dostawcy mogą przetwarzać dane techniczne w zakresie opisanym we własnych politykach prywatności. Ich okresy przechowywania danych mogą różnić się od okresów dotyczących naszego serwera.
+
+## 5. Przetwarzanie danych poza Europejskim Obszarem Gospodarczym
+
+Niektórzy dostawcy usług działają poza Europejskim Obszarem Gospodarczym lub korzystają z podwykonawców przetwarzających tam dane.
+
+Mapricot wskazuje, że jego serwery i kopie zapasowe znajdują się w Unii Europejskiej, ale dostęp do danych może odbywać się ze Stanów Zjednoczonych, a część podwykonawców działa również poza EOG. Dostawca opisuje stosowanie prawnie uznanych zabezpieczeń, w tym standardowych klauzul umownych Komisji Europejskiej.
+
+Informacje o miejscach przetwarzania i zabezpieczeniach stosowanych przez pozostałych dostawców znajdują się w ich politykach prywatności wskazanych powyżej. W sprawie przetwarzania danych w związku z naszą aplikacją możesz skontaktować się z nami pod adresem info@madis.it.com.
+
+## 6. Płatności i reklamy
+
+Aplikacja nie sprzedaje biletów i nie przetwarza płatności. Podpowiada jedynie, jak zapłacić zbliżeniowo w pojeździe.
+
+Aplikacja nie zawiera reklam. Nie sprzedajemy danych ani nie udostępniamy ich w celach reklamowych.
 
 ## 7. Jak długo przechowujemy dane
-Dane zapisane na urządzeniu zostają tam, dopóki nie usuniesz aplikacji. Dane śledzenia na żywo usuwamy z serwera, gdy śledzenie się kończy, najpóźniej po 8 godzinach. Techniczny dziennik działania serwera, bez identyfikatorów powiadomień, przechowujemy do 14 dni.
+
+- Ustawienia zapisane lokalnie pozostają na urządzeniu do ich usunięcia w aplikacji, wyczyszczenia jej danych lub odinstalowania.
+- Dane śledzenia na żywo są usuwane z naszego serwera po zakończeniu śledzenia. Rejestracja śledzenia wygasa najpóźniej po 8 godzinach. Wygasłe wpisy usuwa działający serwer podczas kolejnego cyklu obsługi.
+- Zapytania o adresy i trasy są przekazywane przez nasz moduł pośredniczący bez zapisywania ich treści.
+- Liczniki ograniczające liczbę zapytań według adresu IP są przechowywane w pamięci serwera i resetowane co minutę lub po ponownym uruchomieniu serwera.
+- Dziennik diagnostyczny aktywności na żywo jest czyszczony z wpisów starszych niż 14 dni przy zapisywaniu kolejnych zdarzeń. Jeżeli nowe zdarzenia nie są zapisywane, starsze wpisy mogą pozostać dłużej.
+- Dane przetwarzane przez dostawców zewnętrznych są przechowywane zgodnie z ich politykami prywatności.
 
 ## 8. Twoje prawa
-Zgodnie z RODO masz prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz wycofania zgody w dowolnym momencie. Lokalizację możesz wyłączyć w ustawieniach telefonu: na iPhonie Ustawienia → Prywatność i bezpieczeństwo → Usługi lokalizacji → Jedź Lublin, na Androidzie Ustawienia → Aplikacje → Jedź Lublin → Uprawnienia → Lokalizacja. Masz też prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (https://uodo.gov.pl).
+
+W zakresie przewidzianym przez RODO masz prawo do:
+
+- dostępu do swoich danych i otrzymania ich kopii;
+- sprostowania danych;
+- usunięcia danych;
+- ograniczenia przetwarzania;
+- przenoszenia danych, gdy ma to zastosowanie;
+- wniesienia sprzeciwu wobec przetwarzania opartego na uzasadnionym interesie;
+- wycofania zgody w dowolnym momencie, bez wpływu na zgodność z prawem wcześniejszego przetwarzania.
+
+Aby skorzystać z tych praw, napisz na info@madis.it.com. Ponieważ aplikacja nie wymaga konta, możemy potrzebować dodatkowych informacji pozwalających ustalić, których danych dotyczy Twoje żądanie.
+
+Dostęp do lokalizacji możesz wyłączyć w ustawieniach telefonu:
+
+- iPhone: Ustawienia → Prywatność i bezpieczeństwo → Usługi lokalizacji → Jedź Lublin;
+- Android: Ustawienia → Aplikacje → Jedź Lublin → Uprawnienia → Lokalizacja.
+
+Masz również prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych: uodo.gov.pl (https://uodo.gov.pl).
 
 ## 9. Dzieci
-Aplikacja nie jest skierowana do dzieci poniżej 13 lat i nie zbiera świadomie ich danych.
 
-## 10. Zmiany
-Możemy zmienić tę politykę, gdy zmieni się sposób działania aplikacji. Aktualna wersja jest zawsze dostępna w aplikacji i pod adresem https://github.com/Madis-IT/JedzLublin.
+Aplikacja nie jest skierowana do dzieci poniżej 13 lat. Nie zbieramy świadomie danych dzieci w tym wieku. Jeśli uważasz, że takie dane zostały nam przekazane, skontaktuj się z nami.
+
+## 10. Zmiany polityki
+
+Politykę aktualizujemy, gdy zmienia się sposób działania aplikacji lub przetwarzania danych. Datę ostatniej aktualizacji podajemy na początku dokumentu.
+
+Aktualna wersja jest dostępna w aplikacji oraz pod adresem: github.com/Madis-IT/JedzLublin (https://github.com/Madis-IT/JedzLublin).
 
 ## 11. Kontakt
-Madis sp. z o.o., ul. Sądowa 2 m. 11, 20-027 Lublin, info@madis.it.com.
+
+Madis sp. z o.o.
+ul. Sądowa 2 m. 11
+20-027 Lublin
+NIP 9462762163
+E-mail: info@madis.it.com
